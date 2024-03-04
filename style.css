@@ -1,0 +1,92 @@
+/* [lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more */
+
+.full
+{
+    display: block;
+}
+.logo
+{
+    width: 400px;
+    
+}
+
+.sol
+{
+    color: blue;
+}
+
+h1
+{
+    font-size: 5em;    
+}
+
+.pic
+{
+    width: 300px ;
+}
+
+.card
+{
+    width: 45%;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+h2,p
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+
+
+.footy
+{
+    color: midnightblue;
+    background-color: aqua;
+    clear: both;
+    text-align: right;
+}
+
+
+
+@media (max-width:600px)
+{
+    .logo
+    {
+        width: 200px;        
+    } 
+    h1{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .card{
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .right
+    {
+        float: left;
+    }
+   
+    img{
+        width:200px;
+        margin-top: 60px;
+    }
+
+}
